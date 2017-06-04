@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="PaycheckEstimatorDB" Class="PaycheckEstimator_DataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\PaycheckEstimatorDB.mdf;Integrated Security=True;User Instance=True" SettingsObjectName="Paycheck_Esitmator.My.MySettings" SettingsPropertyName="PaycheckEstimatorDBConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Lists" Member="Lists">
+    <Type Name="List">
+      <Column Name="ID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="PaystubID" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Association Name="List_ListItem" Member="ListItems" ThisKey="ID" OtherKey="ListID" Type="ListItem" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ListItems" Member="ListItems">
+    <Type Name="ListItem">
+      <Column Name="ListID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Amount" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Column Name="Quantity" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="IsComplete" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="List_ListItem" Member="List" ThisKey="ListID" OtherKey="ID" Type="List" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="PaycheckEstimator_DataClasses">
+  <DataContextMoniker Name="/PaycheckEstimator_DataClassesDataContext" />
+  <nestedChildShapes>
+    <classShape Id="b040e43f-01c3-4cd8-ba4d-c67fa9b19b9e" absoluteBounds="0.75, 1.125, 2, 1.2605004882812498">
+      <DataClassMoniker Name="/PaycheckEstimator_DataClassesDataContext/List" />
+      <nestedChildShapes>
+        <elementListCompartment Id="956ebe5c-2c53-42a1-a0e5-e98709699913" absoluteBounds="0.765, 1.585, 1.9700000000000002, 0.70050048828125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="401a174f-0aff-403b-a8ad-4fd905a63a02" absoluteBounds="3.5, 0.875, 2, 1.5891951497395833">
+      <DataClassMoniker Name="/PaycheckEstimator_DataClassesDataContext/ListItem" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7b43b83c-2689-4d36-9553-193b7d5649c0" absoluteBounds="3.515, 1.335, 1.9700000000000002, 1.0291951497395833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 1.75525024414062); (3.5 : 1.75525024414062)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/PaycheckEstimator_DataClassesDataContext/List/List_ListItem" />
+      <nodes>
+        <classShapeMoniker Id="b040e43f-01c3-4cd8-ba4d-c67fa9b19b9e" />
+        <classShapeMoniker Id="401a174f-0aff-403b-a8ad-4fd905a63a02" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

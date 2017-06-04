@@ -1,0 +1,14 @@
+C:\Documents and Settings\Owner\my documents\visual studio 2010\Projects\Paycheck Esitmator\Paycheck Esitmator\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Owner\my documents\visual studio 2010\Projects\Paycheck Esitmator\Paycheck Esitmator\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Owner\my documents\visual studio 2010\Projects\Paycheck Esitmator\Paycheck Esitmator\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Owner\my documents\visual studio 2010\Projects\Paycheck Esitmator\Paycheck Esitmator\bin\Debug\Paycheck Esitmator.exe
+C:\Documents and Settings\Owner\my documents\visual studio 2010\Projects\Paycheck Esitmator\Paycheck Esitmator\bin\Debug\Paycheck Esitmator.pdb
+C:\Documents and Settings\Owner\my documents\visual studio 2010\Projects\Paycheck Esitmator\Paycheck Esitmator\obj\x86\Debug\Paycheck Esitmator.exe
+C:\Documents and Settings\Owner\my documents\visual studio 2010\Projects\Paycheck Esitmator\Paycheck Esitmator\obj\x86\Debug\Paycheck Esitmator.pdb
+C:\Documents and Settings\Owner\my documents\visual studio 2010\Projects\Paycheck Esitmator\Paycheck Esitmator\obj\x86\Debug\Paycheck_Esitmator.DayItem_UserControl.resources
+C:\Documents and Settings\Owner\my documents\visual studio 2010\Projects\Paycheck Esitmator\Paycheck Esitmator\bin\Debug\Paycheck Esitmator.exe.config
+C:\Documents and Settings\Owner\my documents\visual studio 2010\Projects\Paycheck Esitmator\Paycheck Esitmator\obj\x86\Debug\Paycheck_Esitmator.PaycheckEstimator.resources
+C:\Documents and Settings\Owner\my documents\visual studio 2010\Projects\Paycheck Esitmator\Paycheck Esitmator\obj\x86\Debug\Paycheck_Esitmator.ListItem_UserControl.resources
+C:\Documents and Settings\Owner\my documents\visual studio 2010\Projects\Paycheck Esitmator\Paycheck Esitmator\obj\x86\Debug\Paycheck_Esitmator.Resources.resources
+C:\Documents and Settings\Owner\my documents\visual studio 2010\Projects\Paycheck Esitmator\Paycheck Esitmator\bin\Debug\PaycheckEstimatorDB.mdf
+C:\Documents and Settings\Owner\my documents\visual studio 2010\Projects\Paycheck Esitmator\Paycheck Esitmator\bin\Debug\PaycheckEstimatorDB_log.ldf
